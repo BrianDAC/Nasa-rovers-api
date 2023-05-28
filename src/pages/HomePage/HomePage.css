@@ -1,0 +1,60 @@
+.rover {
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.rover img {
+    max-height: 150px;
+    max-width: 150px;
+}
+.camera-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 35px;
+}
+ion-button {
+    height: 60px;
+}
+ion-button ion-label {
+    white-space: break-spaces;
+    line-height: 20px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit ion-button {
+    height: 45px;
+    width: 150px;
+}
+.submit .bookmark {
+    width: 75px;
+}
+.bookmark {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pagination ion-button {
+    height: 35px;
+    margin: 0 10px;
+}
+.photos-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 35px;
+}
+.photo {
+    padding: 15px;
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 350px;
+}
