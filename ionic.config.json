@@ -1,0 +1,7 @@
+{
+  "name": "nasa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
